@@ -1,3 +1,7 @@
+body{
+    background-color: cornsilk;
+}
+
 .header-container-padre{
     margin-top: 40px;
     margin-left: 60px;
@@ -53,8 +57,17 @@ button{
     font-weight: bold;
 }
 
-.publish{
-    background-color: #D8CEEA;
+.section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.section-container > *{
+    margin: 20px;
 }
 
 .header-article{
@@ -70,24 +83,25 @@ button{
     color: #343434;
     line-height: 1.5; /*interlineado*/
     margin-bottom: 20px;
-  }
+    text-align: justify;
+}
   
-  .publish > form {
+.publish > form {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
+}
   
-  .publish > form p {
+.publish > form p {
     color: #025157;
     margin-right: 18px;
     font-size: 18px;
 
-  }
+}
 
-  .publish > form input{
+.publish > form input{
       border: none;
       padding-bottom: 10px;
       padding-top: 10px;
       font-size: 14px;
-  }
+}
